@@ -27,9 +27,9 @@ namespace OOP_task1
 
         public BankAccount(decimal initialDeposit, string accountHolderName, string accountNumber)
         {
-            AccountHolderName = accountHolderName;
-            AccountNumber = accountNumber;
-            Balance = initialDeposit;
+           this.AccountHolderName = accountHolderName;
+           this.AccountNumber = accountNumber;
+           Deposit (initialDeposit);
         }
 
         public void Deposit(decimal amount)
