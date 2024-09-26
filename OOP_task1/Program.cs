@@ -14,7 +14,7 @@ namespace OOP_task1
                 Console.WriteLine("0: Add Account");
                 Console.WriteLine("1: Display All Accounts");
                 Console.WriteLine("2: Get Account by Number");
-                Console.WriteLine("3: Exit");
+                Console.WriteLine("3: Exit the program");
 
                 // Safe input handling
                 if (int.TryParse(Console.ReadLine(), out int op))
